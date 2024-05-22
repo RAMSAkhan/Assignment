@@ -1,3 +1,4 @@
+# PART1
 # Function to add two numbers
 def add_two_numbers(num1, num2):
     return num1 + num2
@@ -15,7 +16,7 @@ result = add_two_numbers(num1, num2)
 print(f"The sum of {num1} and {num2} is {result}")
 
 
-'''# Function to subtract two numbers
+# Function to subtract two numbers
 def subtract_two_numbers(num1, num2):
     return num1 - num2
 
@@ -29,10 +30,11 @@ num2 = float(input("Enter the second number: "))
 result = subtract_two_numbers(num1, num2)
 
 # Print the result
-print(f"The result of subtracting {num2} from {num1} is {result}")'''
+print(f"The result of subtracting {num2} from {num1} is {result}")
 
 
-'''# Function to multiply two numbers
+#PART2
+# Function to multiply two numbers
 def multiply_two_numbers(num1, num2):
     return num1 * num2
 
@@ -46,9 +48,11 @@ num2 = float(input("Enter the second number: "))
 result = multiply_two_numbers(num1, num2)
 
 # Print the result
-print(f"The product of {num1} and {num2} is {result}")'''
+print(f"The product of {num1} and {num2} is {result}")
 
-'''# Function to divide two numbers
+
+
+# Function to divide two numbers
 def divide_two_numbers(num1, num2):
     if num2 == 0:
         return "Error: Division by zero is not allowed."
@@ -65,4 +69,4 @@ num2 = float(input("Enter the second number: "))
 result = divide_two_numbers(num1, num2)
 
 # Print the result
-print(f"The result of dividing {num1} by {num2} is {result}")'''
+print(f"The result of dividing {num1} by {num2} is {result}")
